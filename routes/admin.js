@@ -8,9 +8,7 @@ route.get('/',(req,res,next) =>{
 route.post('/admin',(req,res,next) => {
     res.send('<h3> You filled form </h3>');
 });
-route.use('/welcome',(req,res,next) =>{
-    res.send('<h1> You are welcome');
-});
+
 
 
 module.exports = route;
